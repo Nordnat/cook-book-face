@@ -1,0 +1,7 @@
+.vscode
+.git
+
+typings
+app/**/*.js
+app/**/*.map
+node_modules

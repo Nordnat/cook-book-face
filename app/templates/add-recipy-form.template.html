@@ -1,0 +1,52 @@
+<div class="container">
+    <h2>Dodaj nowy przepis</h2>
+    <form>
+        <div class="form-group">
+            <label for="dish-name">Nazwa dania</label>
+            <input id="dish-name" 
+                type="text" 
+                class="form-control"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="dish-description">Opis dania</label>
+            <input id="dish-description" 
+                type="text" 
+                class="form-control"
+                >
+        </div>
+        <h3>Składniki</h3>
+        <div class="form-group">
+            <label for="ingredient-name">Nazwa składnika</label>
+            <input id="ingredient-name" 
+                type="text" 
+                class="form-control" 
+                required>
+                <label for="ingredient-measure">Ilość składnika</label>
+            <input id="ingredient-measure" 
+                type="text" 
+                class="form-control" 
+                required>
+                <label for="unit-name">Jednostka miary</label>
+            <input id="unit-name" 
+                type="text" 
+                class="form-control" 
+                required>
+        </div>
+        <h3>Poziom trudności</h3>
+        <div class="form-group">
+            <label for="difficulty-level">Wybierz poziom trudności</label>
+            <div>
+                Gwiazdki
+            </div>
+            <input id="difficulty-level" 
+                type="hidden" 
+                class="form-control"
+                >
+        </div>
+        <h3>Dodaj zdjęcie</h3>
+        <div>Dodawanie zdjęć</div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
+
