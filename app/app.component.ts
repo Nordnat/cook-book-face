@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
-import {AddRecipyForm} from './components/add-recipy-form.component'
+import {AddRecipeForm} from './recipes/components/add-recipe-form.component'
+import { IngridientFormGroup } from './recipes/components/ingridient-form-group.component';
+
 @Component({
   selector: 'my-app',
   template: 
   `
-  <add-recipy-form></add-recipy-form>
-  `
-  directives: [AddRecipyForm]
+  <add-recipe-form></add-recipe-form>
+  `,
+  directives: [AddRecipeForm, IngridientFormGroup]
 })
 export class AppComponent { }
